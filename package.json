@@ -2,11 +2,16 @@
   "name": "node-ci",
   "version": "1.0.0",
   "scripts": {
-    "start:backend": "node backend/server.js",
-    "test:backend": "node backend/test.js",
-    "test": "npm run test:backend"
+    "backend:start": "node backend/server.js",
+    "backend:test": "node backend/test.js",
+    "test": "npm run backend:test",
+    "frontend:build": "gulp"
   },
   "dependencies": {
     "express": "4.15"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
   }
 }
