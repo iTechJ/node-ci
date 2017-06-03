@@ -4,11 +4,10 @@ node_js:
 
 # Build only "master" and "dev" branches.
 # Will also build pull requests to these branches.
-general:
-  branches:
-    only:
-      - master
-      - dev
+branches:
+  only:
+    - master
+    - dev
 
 
 script:
