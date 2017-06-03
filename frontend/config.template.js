@@ -1,0 +1,3 @@
+window.nodeCiConfigs = {
+    environment: "<%= environment %>"
+};

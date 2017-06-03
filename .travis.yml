@@ -2,6 +2,8 @@ language: node_js
 node_js:
   - "6.10.3"
 
+# Build only "master" and "dev" branches.
+# Will also build pull requests to these branches.
 general:
   branches:
     only:
