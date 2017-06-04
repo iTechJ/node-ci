@@ -4,7 +4,6 @@
   "scripts": {
     "backend:start": "node backend/server.js",
     "backend:test": "node backend/test.js",
-    "test": "npm run backend:test",
     "frontend:build": "gulp"
   },
   "dependencies": {

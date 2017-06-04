@@ -9,4 +9,8 @@ general:
       - dev
 
 
-script: npm run frontend:build
+script:
+  - npm run frontend:build
+  # After adding custom scripts to build process default command 'npm test' will no longer be executed.
+  # Therefore we have to run tests manually.
+  - npm run backend:test
